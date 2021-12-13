@@ -1,0 +1,115 @@
+header,
+footer {
+  width: 100%;
+  background-color: #777;
+  padding-bottom: 0.5rem;
+}
+
+.logotxt {
+  color: #fff;
+  font-size: 3rem;
+  font-weight: bold;
+  font-family: 'Courier New', Courier, monospace;
+  letter-spacing: -0.2ch;
+}
+input {
+  width: 200px;
+  display: block;
+  margin: 0.5rem auto;
+  background: url(glass-small.png) no-repeat scroll 1px 1px;
+  padding-left:30px;
+  background-color: #fff;
+}
+
+.hero {
+  height: 100vh;
+  position: relative;
+  background: repeating-linear-gradient(
+    to right,
+    #f6c900,
+    #f6c900 10px,
+    #e6b800 10px,
+    #e6b800 20px
+  );
+}
+
+h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #555;
+  text-align: center;
+}
+
+main {
+  border-bottom: #e6b800 0.5rem solid;
+}
+
+.faces {
+  display: flex;
+  justify-content: space-around;
+}
+
+.faces img {
+  width: 30%;
+  border-radius: 100%;
+  display: inline-block;
+  object-fit: cover;
+  aspect-ratio: 1 / 1;
+  margin: 0.5rem auto;
+}
+
+h2 {
+  color: #e6b800;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+p {
+  width: 80%;
+  text-align: center;
+  margin: 2rem auto;
+  color: #555;
+}
+
+.contacts {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+figure {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+figure img {
+  width: 100%;
+  border-radius: 100%;
+  display: inline-block;
+  object-fit: cover;
+  aspect-ratio: 1 / 1;
+  margin: 0.5rem auto;
+}
+
+figure figcaption {
+  width: 99%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-weight: bold;
+  color: #e6b800;
+}
+
+figure figcaption a {
+  color: #555;
+  text-decoration: none;
+}
+
+.team {
+  margin-top: 0;
+}
