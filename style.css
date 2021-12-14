@@ -184,6 +184,10 @@ footer ul li {
     width: 25%;
   }
 
+  p {
+    width: 66%;
+  }
+
   .contacts {
     flex-direction: row;
     justify-content: space-around;
