@@ -16,6 +16,7 @@ footer {
   font-family: 'Courier New', Courier, monospace;
   letter-spacing: -0.2ch;
   margin-top: 0;
+  margin-bottom: 1rem;
 }
 
 input {
@@ -29,6 +30,7 @@ input {
 
 .hero {
   height: 100vh;
+  min-height: 600px;
   position: relative;
   background: repeating-linear-gradient(
     to right,
@@ -196,10 +198,18 @@ footer ul li {
     width: 60%;
   }
 
-  figure {
+  .contacts figure {
     display: flex;
     flex-direction: row;
     align-items: center;
+  }
+
+  figure img {
+    width: 60%;
+  }
+
+  figure figcaption {
+    width: 40%;
   }
 
   footer {
